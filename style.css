@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    
+}
+html{
+  overflow-x:hidden;
+}
+body {
+    background-color: 
+    #F5F5F5;
+    /* overflow: hidden; */
+}
+.title {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bolder;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    color: #F6353D;
+    text-decoration: none;
+    font-family: 'Pt Sans Capiton', sans-serif;
+}
+a:hover {
+    color: #f6353bab;
+}
+button {
+    box-shadow: 0 .5rem 2rem rgba(0,0,0,.175)!important;
+}
+img {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+hr.underline {
+    width: 15%;
+    border-top: 6px solid #F6353D;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 0;
+}
+
+nav a.navbar-brand {
+    color: #f6353b !important;
+    font-weight: bold;
+}
+nav a.nav-link.active {
+    color: #f6353b !important;
+}
+nav a.nav-link {
+    color: #f6353bb6 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 30vh 5vh;
+    color: white;
+    /* margin-bottom: 10vh; */
+    position: relative;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), url('img/Candi\ Borobudur.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header img {
+    width: 30%;
+}
+/* .swiper .swiper-slide {
+    position: relative;
+} */
+.swiper .transparent-box {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.72) 100%);
+    position: absolute;
+    top: 150px;
+}
+#yanti {
+    position: relative;
+    /* overflow-x: hidden; */
+}
+#anto {
+    max-width: 40%;
+}
+#udin {
+    width: 60%;
+    position: absolute;
+    right: -30vh;
+    /* margin-left: 20vh; */
+}
+.swiper-pagination-bullet {
+    background-color: #F6353D !important;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+@media (max-width: 991.98px) {
+    header {
+        /* background-color: rgb(0, 0, 0); */
+        padding: 20vh 2vh;
+        color: white;
+        /* margin-bottom: 10vh; */
+        /* position: relative; */
+    
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), url('img/Candi\ Borobudur.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .swiper .transparent-box {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.72) 100%);
+        position: absolute;
+        top: 150px;
+    }
+    #anto {
+        max-width: 100%;
+    }
+    #udin {
+        width: 100%;
+        height: 100%;
+        position: unset;
+        margin-left: unset;
+    }
+    .swiper-slide img {
+        border-radius: 10px;
+    }
+}
+
+.black {
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 20vh 5vh;
+    margin-bottom: 10vh;
+}
+.black img {
+    width: 100%;
+    margin: 10px;
+    border-radius: 20px;
+}
+.abs p {
+    margin-left: 75%;
+}
+.abs p:hover {
+    color: #F6353D;
+    cursor: pointer;
+}
+@media (max-width: 575.98px) {
+    .abs p {
+        margin-left: 50%;
+    }
+}
+
+.row.wis {
+    margin-bottom: 15vh;
+}
+.row.wis p {
+    font-size: small;
+}
+.row.wis p span {
+    color: red;
+}
+.row.wis img {
+    width: 70%;
+    border-radius: 20px;
+}
+.row.wis .btn-read {
+    padding: 8px;
+    background-color: #F6353D;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+.row.wis .btn-photos {
+    padding: 8px;
+    background-color: unset;
+    border: none;
+    border-radius: 8px;
+    color: #F6353D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.white {
+    background-color: white;
+    padding: 10vh;
+}
+
+
+footer {
+    background-color: rgb(75, 0, 0);
+    color: white;
+    padding: 10vh;
+}
+footer p {
+    margin: 0;
+}
+.bottom {
+    bottom: 0;
+    background-color: #220000;
+    text-align: center;
+    color: white;
+    padding-bottom: .1px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.bottom i {
+    color: #F6353D;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MODALLLLLLLLLLL */
+.modal-header {
+    border: none;
+    text-align: center;
+}
+.modal-body {
+    padding: 0;
+}
+.heading {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 40px;
+    color: white;
+}
+
+.gallery-image {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image img {
+    height: 250px;
+    width: 350px;
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+}
+
+.img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+}
+
+.caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0.0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+    transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1.0;
+}
+
+.img-box:hover {
+    cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+    font-size: 0.8em;
+}
+
+.opacity-low {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+.line-1{
+    /* position: relative; */
+    /* top: 50%;   */
+    /* width: 24em; */
+    /* margin: 0 auto; */
+    /* border-right: 2px solid rgba(255,255,255,.75); */
+    /* font-size: 180%; */
+    /* text-align: center; */
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
