@@ -35,11 +35,12 @@ img {
 }
 hr.underline {
     width: 15%;
-    border-top: 6px solid #F6353D;
+    border-top: 6px solid #ac2429;
     border-bottom: none;
     border-left: none;
     border-right: none;
     margin: 0;
+    opacity: 100%;
 }
 
 nav a.navbar-brand {
